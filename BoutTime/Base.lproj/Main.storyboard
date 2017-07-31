@@ -26,26 +26,32 @@
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7MC-7u-qvD" userLabel="Event-0 Down Btn">
                                 <rect key="frame" x="260" y="28" width="40" height="110"/>
                                 <state key="normal" image="down_full"/>
+                                <state key="highlighted" image="down_full_selected"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="959-3A-5fb" userLabel="Event-1 Up Btn">
                                 <rect key="frame" x="260" y="146" width="40" height="55"/>
                                 <state key="normal" image="up_half"/>
+                                <state key="highlighted" image="up_half_selected"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GUa-qu-Vi5" userLabel="Event-1 Down btn">
                                 <rect key="frame" x="260" y="201" width="40" height="55"/>
                                 <state key="normal" image="down_half"/>
+                                <state key="highlighted" image="down_half_selected"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KuG-Rm-7Mj" userLabel="Event-2 Up Btn">
                                 <rect key="frame" x="260" y="264" width="40" height="55"/>
                                 <state key="normal" image="up_half"/>
+                                <state key="highlighted" image="up_half_selected"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ae4-mA-BOd" userLabel="Event-2 Down Btn">
                                 <rect key="frame" x="260" y="319" width="40" height="55"/>
                                 <state key="normal" image="down_half"/>
+                                <state key="highlighted" image="down_half_selected"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="anz-sW-Zcv" userLabel="Event-3 Up Btn">
                                 <rect key="frame" x="260" y="382" width="40" height="110"/>
                                 <state key="normal" image="up_full"/>
+                                <state key="highlighted" image="up_full_selected"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dYj-YI-Uuu" userLabel="Event 0">
                                 <rect key="frame" x="20" y="28" width="240" height="110"/>
@@ -162,8 +168,12 @@
     </scenes>
     <resources>
         <image name="down_full" width="158" height="457"/>
+        <image name="down_full_selected" width="158" height="457"/>
         <image name="down_half" width="158" height="229"/>
+        <image name="down_half_selected" width="158" height="229"/>
         <image name="up_full" width="158" height="457"/>
+        <image name="up_full_selected" width="158" height="457"/>
         <image name="up_half" width="158" height="229"/>
+        <image name="up_half_selected" width="158" height="229"/>
     </resources>
 </document>
