@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>event</key>
+		<string>Wrold War II ended</string>
+		<key>date</key>
+		<integer>1945</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/World_War_II</string>
+	</dict>
+	<dict>
+		<key>event</key>
+		<string>First manned mission to land on the Moon</string>
+		<key>date</key>
+		<integer>1969</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Moon_landing</string>
+	</dict>
+	<dict>
+		<key>event</key>
+		<string>Ottoman Empire ended</string>
+		<key>date</key>
+		<integer>1922</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Ottoman_Empire</string>
+	</dict>
+	<dict>
+		<key>event</key>
+		<string>First FIFA World Cup</string>
+		<key>date</key>
+		<integer>1930</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/1930_FIFA_World_Cup</string>
+	</dict>
+	<dict>
+		<key>event</key>
+		<string>First Summer Olympics</string>
+		<key>date</key>
+		<integer>1896</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/1896_Summer_Olympics</string>
+	</dict>
+	<dict>
+		<key>event</key>
+		<string>Thomas Edision invented the light bulb</string>
+		<key>date</key>
+		<integer>1879</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Thomas_Edison</string>
+	</dict>
+	<dict>
+		<key>event</key>
+		<string>Start of the Arab Spring</string>
+		<key>date</key>
+		<integer>2010</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Arab_Spring</string>
+	</dict>
+	<dict>
+		<key>event</key>
+		<string>Discovery of the Double Helix structure of DNA</string>
+		<key>date</key>
+		<integer>1953</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/The_Double_Helix</string>
+	</dict>
+	<dict>
+		<key>event</key>
+		<string>Vietnam War ended</string>
+		<key>date</key>
+		<integer>1975</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Vietnam_War</string>
+	</dict>
+	<dict>
+		<key>event</key>
+		<string>Panama canal opened</string>
+		<key>date</key>
+		<integer>1914</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Panama_Canal</string>
+	</dict>
+	<dict>
+		<key>event</key>
+		<string>First Macintosh computer released</string>
+		<key>date</key>
+		<integer>1984</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Macintosh</string>
+	</dict>
+	<dict>
+		<key>event</key>
+		<string>The Super Nintendo Entertainment System (SNES) released</string>
+		<key>date</key>
+		<integer>1990</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Nintendo_video_game_consoles</string>
+	</dict>
+	<dict>
+		<key>event</key>
+		<string>Super Mario&apos;s first appearance</string>
+		<key>date</key>
+		<integer>1981</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Mario</string>
+	</dict>
+	<dict>
+		<key>event</key>
+		<string>First Macbook Pro released</string>
+		<key>date</key>
+		<integer>2006</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/MacBook_Pro</string>
+	</dict>
+	<dict>
+		<key>event</key>
+		<string>Hurricane Katrina hit the US</string>
+		<key>date</key>
+		<integer>2005</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Hurricane_Katrina</string>
+	</dict>
+	<dict>
+		<key>event</key>
+		<string>Gulf War ended</string>
+		<key>date</key>
+		<integer>1991</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Gulf_War</string>
+	</dict>
+	<dict>
+		<key>event</key>
+		<string>The UK leaves the European Union</string>
+		<key>date</key>
+		<integer>2016</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Brexit</string>
+	</dict>
+	<dict>
+		<key>event</key>
+		<string>Curiosity rover landing on Mars</string>
+		<key>date</key>
+		<integer>2012</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Curiosity_(rover)</string>
+	</dict>
+	<dict>
+		<key>event</key>
+		<string>Assassination of John F. Kennedy</string>
+		<key>date</key>
+		<integer>1963</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Assassination_of_John_F._Kennedy</string>
+	</dict>
+	<dict>
+		<key>event</key>
+		<string>American Civil War ended</string>
+		<key>date</key>
+		<integer>1865</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Conclusion_of_the_American_Civil_War</string>
+	</dict>
+	<dict>
+		<key>event</key>
+		<string>First Disneyland Park</string>
+		<key>date</key>
+		<integer>1955</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Disneyland</string>
+	</dict>
+	<dict>
+		<key>event</key>
+		<string>First observation of gravitational waves</string>
+		<key>date</key>
+		<integer>2015</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/First_observation_of_gravitational_waves</string>
+	</dict>
+	<dict>
+		<key>event</key>
+		<string>First iPhone released</string>
+		<key>date</key>
+		<integer>2007</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/IPhone_(1st_generation)</string>
+	</dict>
+	<dict>
+		<key>event</key>
+		<string>Penicillin (antibitotics) discovered</string>
+		<key>date</key>
+		<integer>1928</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Penicillin</string>
+	</dict>
+	<dict>
+		<key>event</key>
+		<string>Racial segregation ended</string>
+		<key>date</key>
+		<integer>1964</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Racial_segregation_in_the_United_States</string>
+	</dict>
+</array>
+</plist>
