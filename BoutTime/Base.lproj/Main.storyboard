@@ -123,7 +123,6 @@
                                 <state key="normal" image="next_round_success"/>
                                 <connections>
                                     <action selector="nextRoundButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O9k-Xs-qK4"/>
-                                    <segue destination="z8j-iv-T5G" kind="presentation" identifier="ShowResults" id="MZ6-CW-IbX"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -194,6 +193,7 @@
                         <outlet property="messageLabel" destination="K0Q-oF-1he" id="MoQ-3f-Vce"/>
                         <outlet property="nextRoundBtn" destination="x3T-yg-sc7" id="Gyc-Py-IUE"/>
                         <outlet property="timerLabel" destination="C3Y-K5-dc9" id="BPJ-qp-vwC"/>
+                        <segue destination="z8j-iv-T5G" kind="presentation" identifier="ShowResults" id="6hB-a7-dLd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

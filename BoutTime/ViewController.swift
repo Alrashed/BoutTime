@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, ResultsViewControllerDelegate {
     @IBOutlet weak var event0Btn: UIButton!
     @IBOutlet weak var event1Btn: UIButton!
     @IBOutlet weak var event2Btn: UIButton!
@@ -35,12 +35,20 @@ class ViewController: UIViewController {
             let array = try PlistConverter.collectionArray(fromFile: "EventsCollection", ofType: "plist")
             let collection = try CollectionUnarchiver.gameCollection(fromArray: array)
             self.game = HistoricalEventGame(collection: collection)
-            self.randomEvents = []
+            self.randomEvents = game.pickRandomEvents()
         } catch {
             fatalError("\(error)")
         }
         
         super.init(coder: aDecoder)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "ShowResults" {
+            let resultsViewController = segue.destination as! ResultsViewController
+            resultsViewController.points = game.points
+            resultsViewController.delegate = self
+        }
     }
     
     func startNewGame() {
@@ -51,11 +59,16 @@ class ViewController: UIViewController {
     }
     
     func nextRound() {
+        if game.roundsPlayed == game.totalRounds {
+            performSegue(withIdentifier: "ShowResults", sender: nil)
+        }
+        
         randomEvents = game.pickRandomEvents()
         updateEventButtonTitles()
         
         timerLabel.isHidden = false
         messageLabel.isHidden = false
+        nextRoundBtn.isHidden = true
         
         startTimer()
     }
@@ -107,8 +120,16 @@ class ViewController: UIViewController {
         updateEventButtonTitles()
     }
     
+    @IBAction func nextRoundButtonTapped(_ sender: UIButton) {
+        nextRound()
+    }
+    
+    func playAgainButtonTapped(_ controller: ResultsViewController) {
+        startNewGame()
+    }
+    
     override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
-        if motion == .motionShake {
+        if motion == .motionShake && timer.isValid == true {
             checkAnswer()
         }
     }
@@ -130,6 +151,5 @@ class ViewController: UIViewController {
         event2Btn.isEnabled = enabled
         event3Btn.isEnabled = enabled
     }
-    
 }
 
