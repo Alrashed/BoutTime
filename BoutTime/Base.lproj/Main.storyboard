@@ -27,7 +27,7 @@
                                 <state key="normal" image="down_full"/>
                                 <state key="highlighted" image="down_full_selected"/>
                                 <connections>
-                                    <action selector="event0DownBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0IZ-aG-qEF"/>
+                                    <action selector="swapTopEvents:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l9H-Wv-ftH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="959-3A-5fb" userLabel="Event-1 Up Btn">
@@ -35,7 +35,7 @@
                                 <state key="normal" image="up_half"/>
                                 <state key="highlighted" image="up_half_selected"/>
                                 <connections>
-                                    <action selector="event1UpBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cEp-Ki-UO0"/>
+                                    <action selector="swapTopEvents:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wCA-XD-gH0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GUa-qu-Vi5" userLabel="Event-1 Down btn">
@@ -43,7 +43,7 @@
                                 <state key="normal" image="down_half"/>
                                 <state key="highlighted" image="down_half_selected"/>
                                 <connections>
-                                    <action selector="event1DownBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b3O-Ej-BXX"/>
+                                    <action selector="swapMiddleEvents:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uk1-UX-j9U"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KuG-Rm-7Mj" userLabel="Event-2 Up Btn">
@@ -51,7 +51,7 @@
                                 <state key="normal" image="up_half"/>
                                 <state key="highlighted" image="up_half_selected"/>
                                 <connections>
-                                    <action selector="event2UpBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="69V-Wj-LuB"/>
+                                    <action selector="swapMiddleEvents:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Rx-Qp-9xR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ae4-mA-BOd" userLabel="Event-2 Down Btn">
@@ -59,7 +59,7 @@
                                 <state key="normal" image="down_half"/>
                                 <state key="highlighted" image="down_half_selected"/>
                                 <connections>
-                                    <action selector="event2DownBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W95-gX-ehf"/>
+                                    <action selector="swapBottomEvents:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PlS-YD-33X"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="130" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="anz-sW-Zcv" userLabel="Event-3 Up Btn">
@@ -67,7 +67,7 @@
                                 <state key="normal" image="up_full"/>
                                 <state key="highlighted" image="up_full_selected"/>
                                 <connections>
-                                    <action selector="event3UpBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aat-OM-mnM"/>
+                                    <action selector="swapBottomEvents:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jLK-nJ-Pc9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dYj-YI-Uuu" userLabel="Event 0">
@@ -191,6 +191,7 @@
                         <outlet property="event2Btn" destination="0ov-av-t5d" id="gnH-3y-LOz"/>
                         <outlet property="event3Btn" destination="pac-eO-0cS" id="GGR-To-OlE"/>
                         <outlet property="messageLabel" destination="K0Q-oF-1he" id="MoQ-3f-Vce"/>
+                        <outlet property="nextRoundBtn" destination="x3T-yg-sc7" id="Gyc-Py-IUE"/>
                         <outlet property="timerLabel" destination="C3Y-K5-dc9" id="BPJ-qp-vwC"/>
                     </connections>
                 </viewController>

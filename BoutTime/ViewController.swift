@@ -77,28 +77,40 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func event0DownBtn(_ sender: UIButton) {
+    @IBAction func swapTopEvents(_ sender: UIButton) {
+        let event0 = randomEvents[0]
+        let event1 = randomEvents[1]
         
+        randomEvents[0] = event1
+        randomEvents[1] = event0
+        
+        updateEventButtonTitles()
     }
     
-    @IBAction func event1UpBtn(_ sender: UIButton) {
+    @IBAction func swapMiddleEvents(_ sender: UIButton) {
+        let event1 = randomEvents[1]
+        let event2  = randomEvents[2]
         
+        randomEvents[1] = event2
+        randomEvents[2] = event1
+        
+        updateEventButtonTitles()
     }
     
-    @IBAction func event1DownBtn(_ sender: UIButton) {
+    @IBAction func swapBottomEvents(_ sender: UIButton) {
+        let event2 = randomEvents[2]
+        let event3 = randomEvents[3]
         
+        randomEvents[2] = event3
+        randomEvents[3] = event2
+        
+        updateEventButtonTitles()
     }
     
-    @IBAction func event2UpBtn(_ sender: UIButton) {
-        
-    }
-    
-    @IBAction func event2DownBtn(_ sender: UIButton) {
-        
-    }
-    
-    @IBAction func event3UpBtn(_ sender: UIButton) {
-        
+    override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+        if motion == .motionShake {
+            checkAnswer()
+        }
     }
     
     func checkAnswer() {
