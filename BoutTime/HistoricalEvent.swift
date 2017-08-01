@@ -84,14 +84,25 @@ class HistoricalEventGame: HistoricalEvent {
     }
     
     func pickRandomEvents() -> [Event] {
-        let randomEvents: [Event] = []
+        var randomEvents: [Event] = []
+        var uniqueIndices: [Int] = []
         
+        while uniqueIndices.count < 4 {
+            let randomIndex = GKRandomSource.sharedRandom().nextInt(upperBound: collection.count)
+            if !uniqueIndices.contains(randomIndex) {
+                uniqueIndices.append(randomIndex)
+            }
+        }
+        
+        for index in 0..<uniqueIndices.count {
+            randomEvents.append(collection[uniqueIndices[index]])
+        }
         
         return randomEvents
     }
     
     func checkOrderOfEvents(from array: [Event]) -> Bool {
-        if array[0].date > array[1].date, array[1].date > array[2].date, array[2].date > array[3].date {
+        if array[0].date < array[1].date, array[1].date < array[2].date, array[2].date < array[3].date {
             points += 1
             return true
         } else {
