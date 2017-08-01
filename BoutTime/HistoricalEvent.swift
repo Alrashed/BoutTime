@@ -58,8 +58,7 @@ class CollectionUnarchiver {
         var collection: [Event] = []
         
         for dictionary in array {
-            if let eventDictionary = dictionary as? [String: Any], let name = eventDictionary["event"] as? String, let date = eventDictionary["date"] as? Int, let url = eventDictionary["String"] as? String {
-                
+            if let name = dictionary["event"] as? String, let date = dictionary["date"] as? Int, let url = dictionary["url"] as? String {
                 let event = Event(name: name, date: date, url: url)
                 
                 collection.append(event)
@@ -103,7 +102,6 @@ class HistoricalEventGame: HistoricalEvent {
     
     func checkOrderOfEvents(from array: [Event]) -> Bool {
         if array[0].date < array[1].date, array[1].date < array[2].date, array[2].date < array[3].date {
-            points += 1
             return true
         } else {
             return false
