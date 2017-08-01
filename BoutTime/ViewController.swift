@@ -135,7 +135,21 @@ class ViewController: UIViewController, ResultsViewControllerDelegate {
     }
     
     func checkAnswer() {
-
+        game.roundsPlayed += 1
+        
+        timer.invalidate()
+        
+        messageLabel.isHidden = true
+        timerLabel.isHidden = true
+        nextRoundBtn.isHidden = false
+        
+        if game.checkOrderOfEvents(from: randomEvents) {
+            game.points += 1
+            
+            nextRoundBtn.setImage(#imageLiteral(resourceName: "next_round_success"), for: .normal)
+        } else {
+            nextRoundBtn.setImage(#imageLiteral(resourceName: "next_round_fail"), for: .normal)
+        }
     }
     
     func updateEventButtonTitles() {
