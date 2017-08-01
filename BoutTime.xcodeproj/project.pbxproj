@@ -13,6 +13,7 @@
 		E9564C251F2D1AC10058F0B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9564C241F2D1AC10058F0B7 /* Assets.xcassets */; };
 		E9564C281F2D1AC10058F0B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9564C261F2D1AC10058F0B7 /* LaunchScreen.storyboard */; };
 		E9564C301F2EA0FA0058F0B7 /* EventsCollection.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9564C2F1F2EA0FA0058F0B7 /* EventsCollection.plist */; };
+		E9564C321F2EE5890058F0B7 /* HistoricalEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9564C311F2EE5890058F0B7 /* HistoricalEvent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E9564C271F2D1AC10058F0B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9564C291F2D1AC10058F0B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9564C2F1F2EA0FA0058F0B7 /* EventsCollection.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EventsCollection.plist; sourceTree = "<group>"; };
+		E9564C311F2EE5890058F0B7 /* HistoricalEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoricalEvent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				E9564C1D1F2D1AC10058F0B7 /* AppDelegate.swift */,
 				E9564C1F1F2D1AC10058F0B7 /* ViewController.swift */,
+				E9564C311F2EE5890058F0B7 /* HistoricalEvent.swift */,
 				E9564C211F2D1AC10058F0B7 /* Main.storyboard */,
 				E9564C241F2D1AC10058F0B7 /* Assets.xcassets */,
 				E9564C261F2D1AC10058F0B7 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9564C321F2EE5890058F0B7 /* HistoricalEvent.swift in Sources */,
 				E9564C201F2D1AC10058F0B7 /* ViewController.swift in Sources */,
 				E9564C1E1F2D1AC10058F0B7 /* AppDelegate.swift in Sources */,
 			);
